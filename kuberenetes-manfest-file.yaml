@@ -236,7 +236,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: 941377132483.dkr.ecr.ap-south-1.amazonaws.com/frontend:latest    #please change the image url according to your account
+          image: 941377132483.dkr.ecr.ap-south-1.amazonaws.com/frontend:-    #please change the image url according to your account
           ports:
           - containerPort: 8080
           readinessProbe:
